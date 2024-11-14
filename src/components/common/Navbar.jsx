@@ -71,7 +71,7 @@ const Navbar = () => {
                                 translate-y-[-45%] h-6 w-6 rotate-45 rounded bg-richblack-5"
                     ></div>
 
-                    {subLinks.length ? (
+                    {subLinks?.length ? (
                       subLinks.map((link, index) => (
                         <Link
                           to={`/catalog/${link.name
